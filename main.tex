@@ -30,14 +30,16 @@
 
 \title{The Large Numbers Hypothesis and the rotation of the Earth}
 \author{Author Name}
+\regNumber{2014XXXXXX}
+\supervisor{Md. Enamul Haque}
+\supervisorDesig{Asst. Professor}
 \submissionDate{26}{February}{2017}
 \keywords{Diarc, Large number, Dimensionless constant}
+
 \degree{Master of Science}      
-
-
-\degreeHeld{B.Sc (Honors)}
 \dept{Department of Physics}
 \school{School of Physical Sciences}
+\subject{Physics}
 
 
 \dedicationtrue    % Not required.
@@ -77,9 +79,32 @@ I would like to thank ...
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \mainmatter
+%
+%% User customisation code goes here
+%
+%% turn off header rule (fancyhdr)
+%\renewcommand\headrulewidth{0pt}
+%% turn on footer rule (fancyhdr)
+%\renewcommand\footrulewidth{0.4pt}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%%%%% Body Text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%% Main Body of Text  % NOT REQUIRED! You are allowed to submit a thesis without text
+%%
+%%   Chapter sectioning commands:
+%%      \chapter{}
+%%      \seciton{}
+%%      \subsection{}
+%%      \subsubsection{}
+%%      \paragraph{}  
+%%      \subparagraph{}
+%%
+%% Your chapters start here
+		\tableofcontents           % Required: Table of Contents
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%% Chapters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Introduction}
 This is my chapter 1 Intorduction.
 \section{Overview}
@@ -103,12 +128,21 @@ It is ususally assumed that the biological growth patterns found in fossil bival
 \chapter{The variation of the Earth's moment of inertia}
 
 \chapter{Discussion and conclusion}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%% Appendices       
+%%
+%% You can use this as a master file and create your
+%%   indivisual chapters in separate files.
+%\include{Chapter1}
+%% Create the file: Chapter1.tex
+%%   in the file
+%%   \chapter{Introduction}
+%%   ...
+%%
+%
+%% Appendices         % OPTIONAL: Appendices
 \appendix
-
+%
+%% Appendix chapters start here
+%%
 \chapter{\LaTeX\ Resources}
 This is appendix A \cite{ref01}.
 \newline \\
@@ -116,7 +150,16 @@ Another reference \cite{ref02}
 \begin{center}
   
 \end{center}
-
-\bibliographystyle{plain}
+%
+%% Other Supplementary
+%% Material           % This has nothing to do with LaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%%%%% Back Matter %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%% Bibliography or
+%% List of References % REQUIRED: Even Einstein put references in his paper
+\bibliographystyle{ieeetr}
 \bibliography{main}
 \end{document}
