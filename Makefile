@@ -16,4 +16,4 @@ clean-all:
 	rm -f *.dvi *.log *.bak *.aux *.bbl *.blg *.idx *.ps *.eps *.pdf *.toc *.out *~ *.lof *.lot
 
 clean:
-	rm -f *.log *.bak *.aux *.bbl *. blg *.idx *.toc *.out *~
+	rm -f *.dvi *.log *.bak *.aux *.bbl *.blg *.idx *.ps *.eps *.toc *.out *~ *.lof *.lot
