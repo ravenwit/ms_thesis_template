@@ -11,6 +11,7 @@ all:
 	$(Bibtex) $(bibname)
 	$(Buildtex)
 	$(Buildtex)
+	make clean
 
 clean-all:
 	rm -f *.dvi *.log *.bak *.aux *.bbl *.blg *.idx *.ps *.eps *.pdf *.toc *.out *~ *.lof *.lot
